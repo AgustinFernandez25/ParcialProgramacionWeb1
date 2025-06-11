@@ -1,0 +1,65 @@
+#front{
+    
+        font-family: "Henny Penny", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(253, 215, 0);
+        font-size:30px;
+        text-shadow: 5px 5px 2px black;
+        
+}
+
+#titulo{
+    margin-left: 400px;
+    width: 400px;
+   
+    
+    
+    
+}
+
+.animtitulo{
+  width: 400px;
+ margin-left: 400px;
+  transition: 0.1s ease;
+}
+
+.animtitulo:hover {
+  filter: brightness(1.2);
+}
+
+
+.contacto{
+
+    font-size: 12px
+    
+
+}
+
+.audio {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  border: 2px solid #d4af37;
+  border-radius: 320px;
+  padding: 15px;
+  box-shadow: 0 0 50px #d4af37;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  
+}
+
+.audio::before {
+  content: "🎶Ambiente Magico🎶";
+  color: #d4af37;
+  font-size: 16px;
+  font-weight:bold;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5px;
+}
+
+
