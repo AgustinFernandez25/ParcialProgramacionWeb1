@@ -63,3 +63,70 @@
 }
 
 
+.formulario {
+    text-align: center;
+    padding: 30px;
+    border: 3px solid #D4AF37; 
+    background-color: #f9f1e741; 
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px; 
+     font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+     width: 80%;
+    max-width: 500px;
+    position: absolute; 
+    left: 52%; 
+    top: 60%;
+    transform: translate(-50%, -50%); 
+
+  }
+
+  
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+    line-height: 0.8cm; 
+    
+}
+
+
+.formulario button {
+    background-color: #ffc400a2; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822);
+    
+}
+
+.formulario button:hover {
+    background-color: #D4AF37; }
+
+
+.formulario label {
+
+    color: #e6b822; 
+     text-shadow: 5px 5px 5px #000000;
+    font-size: 20px; 
+}
+
+.confirmacion {
+    text-align: center;
+    padding: 100px 20px; 
+    
+    
+}
