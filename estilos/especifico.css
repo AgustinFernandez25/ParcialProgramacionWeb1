@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #front{
     
         font-family: "Henny Penny", system-ui;
@@ -6,12 +20,16 @@
         color: rgb(253, 215, 0);
         font-size:30px;
         text-shadow: 5px 5px 2px black;
+        display:inline;
         
 }
 
 #titulo{
-    margin-left: 400px;
-    width: 400px;
+    margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  max-width: 90%; 
+  text-align: center;
    
     
     
@@ -19,9 +37,12 @@
 }
 
 .animtitulo{
-  width: 400px;
- margin-left: 400px;
+ width: 400px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   transition: 0.1s ease;
+  display: block;
 }
 
 .animtitulo:hover {
@@ -130,3 +151,110 @@
     
     
 }
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+    margin: 0;
+     background-image: url("../imagenes/fondo.png");
+    background-size: cover;          /* cubre todo sin deformarse */
+    background-position: center;     /* centrado */
+    background-repeat: no-repeat;    /* que no se repita */
+    background-attachment: fixed;    /* opcional, para que quede fijo al scrollear */
+  }
+
+  main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 100%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    box-sizing: border-box;
+  }
+
+   #titulo {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .animtitulo {
+    width: 100%;
+    max-width: 300px;
+  }
+
+
+.menu {
+    display: flex;              /* los pone uno al lado del otro */
+    flex-wrap: wrap;            /* si no entran todos, bajan ordenados */
+    justify-content: center;    /* centrado */
+    gap: 8px;                   /* espacio entre botones */
+    padding: 10px;
+  }
+
+  .menu img {
+    width: auto;                /* que calcule el ancho automáticamente */
+  height: 60px;               /* altura fija para que no se estire */
+  object-fit: contain;        /* mantiene proporción sin recortar */
+  transition: transform 0.2s ease;
+  }
+
+.audio {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 0px;
+    border: 0;
+    box-shadow: none;
+    background: none;
+  
+  }
+
+  .audio::before {
+    content: none; /* Oculta el texto decorativo */
+  }
+
+  .audio audio {
+    width: 90px;    /* Solo el botón de play */
+    height: 60px;
+     background: none;
+    border: none;
+  }
+
+
+
+
+}
+
+
+
