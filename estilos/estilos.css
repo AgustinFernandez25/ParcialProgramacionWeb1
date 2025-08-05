@@ -93,11 +93,11 @@ a:link {
 }
 
 a:visited {
-  color: #b48e2f; /* Dorado más oscuro si ya fue visitado */
+  color: #b48e2f; 
 }
 
 a:hover {
-  color: #ffffff; /* Blanco al pasar el mouse */
+  color: #ffffff; 
   text-shadow: 0 0 10px #ffffff; 
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=211151), auto;
 }

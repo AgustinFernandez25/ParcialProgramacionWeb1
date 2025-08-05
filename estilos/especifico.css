@@ -160,10 +160,10 @@
     padding: 0 10px;
     margin: 0;
      background-image: url("../imagenes/fondo.png");
-    background-size: cover;          /* cubre todo sin deformarse */
-    background-position: center;     /* centrado */
-    background-repeat: no-repeat;    /* que no se repita */
-    background-attachment: fixed;    /* opcional, para que quede fijo al scrollear */
+    background-size: cover;          
+    background-position: center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
   }
 
   main {
@@ -215,17 +215,17 @@
 
 
 .menu {
-    display: flex;              /* los pone uno al lado del otro */
-    flex-wrap: wrap;            /* si no entran todos, bajan ordenados */
-    justify-content: center;    /* centrado */
-    gap: 8px;                   /* espacio entre botones */
+    display: flex;              
+    flex-wrap: wrap;            
+    justify-content: center;    
+    gap: 8px;                  
     padding: 10px;
   }
 
   .menu img {
-    width: auto;                /* que calcule el ancho automáticamente */
-  height: 60px;               /* altura fija para que no se estire */
-  object-fit: contain;        /* mantiene proporción sin recortar */
+    width: auto;             
+  height: 60px;               
+  object-fit: contain;       
   transition: transform 0.2s ease;
   }
 
@@ -241,11 +241,11 @@
   }
 
   .audio::before {
-    content: none; /* Oculta el texto decorativo */
+    content: none; 
   }
 
   .audio audio {
-    width: 90px;    /* Solo el botón de play */
+    width: 90px;    
     height: 60px;
      background: none;
     border: none;
